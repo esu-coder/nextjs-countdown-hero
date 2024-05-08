@@ -1,0 +1,47 @@
+.container {
+    background-color: antiquewhite;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 1.2rem 0;
+}
+
+.title {
+    font-size: clamp(1.3rem, 2.3vw, 1.5rem);
+}
+
+.timeWrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.timeContainer {
+    text-align: center;
+}
+
+.valueContainer {
+    display: flex;
+    align-items: center;
+    font-size: clamp(1.3rem, 2.5vw, 2.1rem);
+}
+
+.value {
+    margin:  0 4px;
+    padding: 0.5rem;
+
+    background: linear-gradient(to bottom, #fdfdfd 50%, #edebeb 50%);
+    width: 2.1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.unit {
+    text-transform: capitalize;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    margin-top: 5px;
+}
