@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    padding: 2rem;
+    background-color: #fdfdfd;
+
+    @media (max-width: 50em) {
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem;
+    width: 50%;
+
+    @media (max-width: 50em) {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: clamp(1.4rem, 2.5vw, 2.3rem);
+    line-height: clamp(1.95rem, 3.75vw, 3.15rem);
+}
+
+.subHeading {
+    font-size: clamp(1rem, 2vw, 2rem);
+    color: var(--primary-clr);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.heroText {
+    margin-bottom: 2.5rem;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    line-height: clamp(1.35rem, 3vw, 1.5rem);
+}
+
+.menuButton {
+    margin-left: 2rem;
+}
+
+.imageContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 50em) {
+        width: 100%;
+    }
+}
+
+.heroImg {
+    width: 80%;
+    height: auto;
+}

@@ -1,3 +1,10 @@
+:root {
+  --primary-clr: #6a14f3;
+  --primary-hover-clr: #8743f5;
+  --primary-text-clr: #000;
+  --secondary-clr: #b5c8fa;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

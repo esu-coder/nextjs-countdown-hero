@@ -1,0 +1,26 @@
+.primary {
+    padding: 0.8em 2.2em;
+    border-radius: 4px;
+    transition: all 0.2s;
+    font-size: 1rem;
+
+    background-color: var(--primary-clr);
+    color: #fff;
+
+    &:hover {
+        background-color: var(--primary-hover-clr);
+    }
+}
+
+
+.secondary {
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: var(--primary-clr);
+
+    &:hover {
+        transition: border 0.2s;
+        border-bottom: 2px solid var(--primary-clr);
+    }
+}
